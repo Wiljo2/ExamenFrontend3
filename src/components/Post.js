@@ -23,6 +23,7 @@ export default function Post({
   const addLike = () => {
     setContador((prevState) => prevState + 1);
     addTotalLikes();
+    console.log(`El posteo: ${titulo} sumo 1 like`);
   };
 
   return (
